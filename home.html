@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Foxglove Adventures</title>
+	<link rel="stylesheet" type="text/css" href="homeStyles.css">
+	<script type="text/javascript" src="homeActivity.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menu">
+		<a href="home.html"><img src="logo.jpg" class="menuLogo"></a>
+		<p id="nameOfCompany">Foxglove Adventures</p>
+		<a href="contact.html">CONTACT US</a>
+		<a href="locations.html">LOCATIONS</a>
+		<a href="about.html">ABOUT US</a>
+		<a href="home.html">HOME</a>
+	</div>
+<!--next and prev buttons adapted from 
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
+changes to pointer when hovered over, placed in div that contains slideshow pic-->
+<!--for carousel picture manipulation, see .js file-->
+	<div class="Slideshow">
+		<img id="homePageSlideshow">
+		<h1 class="slideshowWords">FOXGLOVE ADVENTURES</h1>
+		<a id="prev"><</a>
+		<a id="next">></a>
+	</div>
+	<div id="setStage">
+		<h1>A Travel Insider Working for You</h1>
+		<p>Don't let your vacation feel like a cattle call.  Let us help you find unique and off-the-beaten-path hideaways.  Whether you are looking for the ultimate relaxing honeymoon with all the frills, a cultural experience on a budget that still feels lush, or an adventure you will tell your grandkids about, let us help you find that personal travel plan that feels like your definition of fun.</p>
+		<p>Foxglove Adventures is the inventor of <strong>smart travel</strong> and we earned that title by physically investigating sites around the world to bring some amazing, once in a lifetime trips.  Our team highlights only a select few locations at a time, to ensure that the holidays we offer are currently the best deals available.  On average, the types of deals shown are at prices typically only seen once every 3-4 years.  So don't miss out, or you may wait another half decade before anything comparable becomes available again.</p>
+		<p>Looking for something in particular and don't see it here?  Send us an email and we will help you book a custom experience.</p>
+	</div>
+	<div id="highlight">
+
+		<h1>This Week's highlighted Location: Africa!</h1>
+		<p>Check out our <a href="locations.html">locations</a> tab for more information about our African Safari adventure.</p>
+		<br>
+		<img class="africaGallery" src="frontFlamingo.jpg">
+		<img class="africaGallery" src="frontElephant.jpg">
+		<img class="africaGallery" src="frontLion.jpg">
+		<img class="africaGallery" src="frontMasai.jpg">
+		<br>
+		<img class="africaGallery" src="frontGiraffe.jpg">
+		<img class="africaGallery" src="frontHippo.jpg">
+		<img class="africaGallery" src="frontLeopard.jpg">
+		<img class="africaGallery" src="frontZebra.jpg">
+		<br>
+		<img class="africaGallery" src="frontTown.jpg">
+		<img class="africaGallery" src="frontLions.jpg">
+		<img class="africaGallery" src="frontRhino.jpg">
+		<img class="africaGallery" src="frontWildebeest.jpg">
+		<br>
+	</div>
+	<div id="signUp">
+		<h3>Sign up for Our Travellers' Club</h3>
+		<p>Get to know us and be the first to be contacted when new boutique trips are added to our collection.</p>
+		<form id="emailSignup" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+    		<fieldset>
+        		<label>Name:
+            		<input type="text" name="name" size="50" maxlength="100">
+        		</label>
+        		<label>Email:
+            		<input type="email" name="email" size="50" maxlength="100">
+        		</label>
+        		<input id="signUpButton" type="submit" value="Sign Up" />
+    		</fieldset>
+    	</form>
+
+	</div>
+	<div id="footer">
+		
+	</div>
+</body>
+</html>

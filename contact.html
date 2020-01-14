@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact - Foxglove Adventures</title>
+	<link rel="stylesheet" type="text/css" href="contactStyles.css">
+	<script type="text/javascript" src="contactActivity.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menu">
+		<a href="home.html"><img src="logo.jpg" class="menuLogo"></a>
+		<p id="nameOfCompany">Foxglove Adventures</p>
+		<a href="contact.html">CONTACT US</a>
+		<a href="locations.html">LOCATIONS</a>
+		<a href="about.html">ABOUT US</a>
+		<a href="home.html">HOME</a>
+	</div>
+
+	<div class="contactPage">
+		<h2>Thank you for your interest in Foxglove Adventures</h2>
+		<h4>Please submit your contact information and we will reach out to you within the next 2 business days.</h4>
+		<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="get">
+			<fieldset class="contactBox">
+        		<label>Name:
+            		<input type="text" name="name" size="30" maxlength="100">
+        		</label>
+        		<br />
+        		<label>Email:
+            		<input type="email" name="email" size="30" maxlength="100">
+        		</label>
+        		<br />
+        		<p>Preferred Contact Time:
+            		<label>
+                		<input type="radio" name="contactTime" value="weekday" />Weekdays during Business Hours</label>
+            		<label>
+                		<input type="radio" name="contactTime" value="weeknight" />Weeknights after Business Hours</label>
+            		<label>
+                		<input type="radio" name="contactTime" value="weekend" />Weekends</label>
+        		</p>
+        		<p>
+            		<label for="whichLocation">Which location are you interested in?</label>
+            		<select name="pickedLocation" id="picked">
+                		<option value="BoraBora">Bora Bora</option>
+                		<option value="Peru">Machu Picchu</option>
+                		<option value="Africa">Serengeti and Masai Mara</option>
+            		</select>
+        		</p>
+        		<input type="submit" value="Submit Contact Information">
+    		</fieldset>
+    	</form>
+        <p>Alternatively, if you would prefer to download a submission form and send back via email, please click here: <button id="downloadButton">Downloadable Contact Form</button> </p>
+         <!--display and how to manipulate in javascript from
+            https://stackoverflow.com/questions/6957443/how-to-display-div-after-click-the-button-in-javascript
+        -->
+        <div id="responseToDownload" style="display: none">
+            <p>Thank you for downloading your contact form.  Please email the form back to <a href="mailto: info@foxgloveadventures.com">info@foxgloveadventures.com</a></p>
+        </div>
+	</div>
+    <footer>
+        <div class="footer">
+            <div class="column1">
+                <p class="busName">Foxglove Adventures</p>
+                <p class="address">PO Box 100</p>
+                <p class="address">Beverly Hills, CA 90210</p>  
+            </div>
+            <div class="column2">
+                <p class="contactInfo">info@foxgloveadventures.com</p>
+                <p class="contactInfo">Ph: 310-555-1297</p>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,123 @@
+body {
+  background-image: url("boraWater.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0px;
+  font-family: 'Itim', cursive;
+}
+/* menu styles */
+/* menu styles */
+
+.menu {
+	background-color: #202060;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 40px;
+}
+.menu a {
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	margin-top: 11px;
+	margin-right: 25px;
+	text-decoration: none;
+	font-family: 'Kaushan Script', cursive;
+}
+.menu a:first-child {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	display: inline;
+	float: left
+}
+#nameOfCompany {
+	display: inline;
+	float: left;
+	margin-top: 8px;
+	margin-right: 25px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Kaushan Script', cursive;
+}
+.menuLogo {
+	height: 40px
+}
+
+/*contact form css styling*/
+.contactPage {
+	margin-left: 5%;
+	margin-right: 5%;
+	background-color: white;
+	border-style: solid;
+	border-color: #202060;
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+h2 {
+	font-family: 'Kaushan Script', cursive;
+}
+.contactBox {
+	margin: 10px;
+	background-color: #c2c2d6;
+}
+
+/*download button*/
+#downloadButton {
+	background-color: #202060;
+	color: white;
+	border: 2px solid #202060;
+	width: auto;
+	height: 75px;
+	font: center;
+	margin-left: 10px;
+}
+/*hover effect from 
+https://www.w3schools.com/css/css3_buttons.asp */
+#downloadButton:hover {
+  background-color: #c2c2d6;
+  color: black;
+}
+
+#responseToDownload {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+}
+
+/*footer*/
+.footer {
+	margin: 0px;
+	padding: 0px;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #202060;
+	color: white;
+}
+.column1 {
+	float: left;
+	width: 25%;
+	text-align: left;
+	padding-left: 15%;
+	background-color: #202060;
+	line-height: 10px;
+}
+.column2 {
+	text-align: right;
+	float: right;
+	width: 25%;
+	padding-right: 15%;
+	background-color: #202060;
+	line-height: 10px;
+}
+.busName {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 18px;
+}

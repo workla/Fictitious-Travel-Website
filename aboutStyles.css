@@ -1,0 +1,100 @@
+/* menu styles */
+body {
+	margin: 0px;
+	font-family: 'Itim', cursive;
+}
+.menu {
+	background-color: #202060;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 40px;
+}
+.menu a {
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	margin-top: 11px;
+	margin-right: 25px;
+	text-decoration: none;
+	font-family: 'Kaushan Script', cursive;
+}
+.menu a:first-child {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	display: inline;
+	float: left
+}
+#nameOfCompany {
+	display: inline;
+	float: left;
+	margin-top: 8px;
+	margin-right: 25px;
+	margin-left: 0px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Kaushan Script', cursive;
+}
+.menuLogo {
+	height: 40px
+}
+
+/*body stuff*/
+h1 {
+	padding-top: 35px;
+	margin-left: 20px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+h2 {
+	margin-left: 20px;
+	font-family: 'Kaushan Script', cursive;
+}
+
+p {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.aboutHeader {
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+/*scroll */
+.bio {
+	height: 250px;
+	overflow: auto;
+	margin: 20px;
+	background-color: #FFFFFF;
+	border-style: solid;
+	border-color: #202060
+}
+
+
+/*textwrap from https://www.homeandlearn.co.uk/WD/wds4p6.html */
+.textWrap {
+	width: 15%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+	float: right;
+}
+.textWrapHeader {
+	width: 15%;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: left;
+}
+
+.clearWrap {
+	clear: left;
+}
+#bios {
+	background-color: #c2c2d6;
+	padding: 10px;
+}

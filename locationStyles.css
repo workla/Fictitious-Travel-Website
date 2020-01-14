@@ -1,0 +1,71 @@
+/* menu styles */
+body {
+	margin: 0px;
+	background-color: #c2c2d6;
+	font-family: 'Itim', cursive;
+}
+.menu {
+	background-color: #202060;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 40px;
+}
+.menu a {
+	text-align: center;
+	font-size: 18px;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	margin-top: 11px;
+	margin-right: 25px;
+	text-decoration: none;
+	font-family: 'Kaushan Script', cursive;
+}
+.menu a:first-child {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 10px;
+	display: inline;
+	float: left
+}
+#nameOfCompany {
+	display: inline;
+	float: left;
+	margin-top: 8px;
+	margin-right: 25px;
+	margin-left: 0px;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-family: 'Kaushan Script', cursive;
+}
+.menuLogo {
+	height: 40px
+}
+
+
+/*image gallery manipulation and setup of location divs*/
+.imageGallery {
+	margin-left: 6%;
+	width: 25%;
+}
+
+.locationDiv {
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 50px;
+	border: solid;
+	border-color: #202060;
+	background-color: white;
+}
+
+/*advice italics*/
+.advice {
+	font-style: italic;
+}
+
+div h1 {
+	font-family: 'Kaushan Script', cursive;
+}
